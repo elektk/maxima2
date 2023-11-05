@@ -1,0 +1,658 @@
+@font-face {
+    font-family: "Gilroy";
+    src:
+        local("Gilroy Bold"),
+        local("Gilroy-Bold"),
+        url("../fonts/Gilroy-Bold/Gilroy-Bold.woff2") format("woff2"),
+        url("../fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"),
+        url("../fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src:
+        local("Gilroy Medium"),
+        local("Gilroy-Medium"),
+        url("../fonts/Gilroy-Medium/Gilroy-Medium.woff2") format("woff2"),
+        url("../fonts/Gilroy-Medium/Gilroy-Medium.woff") format("woff"),
+        url("../fonts/Gilroy-Medium/Gilroy-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src:
+        local("Gilroy Regular"),
+        local("Gilroy-Regular"),
+        url("../fonts/Gilroy-Regular/Gilroy-Regular.woff2") format("woff2"),
+        url("../fonts/Gilroy-Regular/Gilroy-Regular.woff") format("woff"),
+        url("../fonts/Gilroy-Regular/Gilroy-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src:
+        local("Gilroy Semibold"),
+        local("Gilroy-Semibold"),
+        url("../fonts/Gilroy-Semibold/Gilroy-Semibold.woff2") format("woff2"),
+        url("../fonts/Gilroy-Semibold/Gilroy-Semibold.woff") format("woff"),
+        url("../fonts/Gilroy-Semibold/Gilroy-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+* {
+    font-family: "Gilroy";
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.header {
+    display: flex;
+    padding: 5px;
+    max-width: 800px;
+    min-width: 380px;
+    text-align: center;
+}
+.header div {
+    padding-bottom: 5px;
+}
+.send-project {
+    margin-top: 26px;
+    text-align: right;
+}
+.block1 {
+    width: 100%;
+    height: 803px;
+    color: #ffff;
+    background-image: url("../images/background1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+    margin-top: 26px;
+    padding-right: 25px;
+    width: 127px;
+    height: 22px;
+    top: 59px;
+    left: 250px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: #909195;
+}
+.rating {
+    margin-top: 26px;
+    padding-right: 60px;
+}
+.send-project button {
+    width: 237px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    background: #84b73d;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: center;
+}
+.mail {
+    width: 88px;
+    height: 12px;
+    top: 84px;
+    left: 866px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: left;
+    color: #96989f;
+}
+.go-to-whatsup p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #d2d3d6;
+    width: 52px;
+    height: 11px;
+    margin-top: 24px;
+    margin-left: 62px;
+}
+.phone-number {
+    margin-top: 26px;
+    display: block;
+}
+.phone-number p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #d2d3d6;
+    width: 142px;
+    height: 11px;
+}
+.phone-number span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    width: 149px;
+    height: 18px;
+}
+.phone-number a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: left;
+    color: #87bf3c;
+}
+.navigation nav a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-right: 59px;
+}
+.center-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.name1 {
+    font-size: 48px;
+    font-weight: lighter;
+    line-height: 52px;
+}
+.center-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.name2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.center-content button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 285px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #feaa01;
+    color: #ffff;
+    text-align: center;
+}
+.advantages {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    display: flex;
+}
+.advantages p {
+    margin-right: 70px;
+}
+.block2 h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.block2 span {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.blok2 h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.blok2 p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-style: oblique;
+}
+.blok2 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.dir p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #a09ea1;
+}
+.cond p {
+    color: #4b4747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.cond span {
+    color: #4b4747;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 12px;
+}
+label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.clue {
+    color: #777779;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 14px;
+}
+.clue span {
+    font-weight: 400;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.adv p {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+}
+.adv span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.block3 span {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 47px;
+}
+.block3 h2 {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.block3 p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+}
+.block3 button {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13px;
+    color: #fcfcfe;
+    background: #73b918;
+    width: 132px;
+    height: 33.21px;
+    border-radius: 3.32px;
+    border: none;
+}
+.block4 h2 {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.block4 p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #7a7d81;
+}
+.block4 span {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+    color: #7a7d81;
+}
+.block4 article button {
+    text-transform: uppercase;
+    width: 181.64px;
+    height: 39.81px;
+    border: none;
+    border-radius: 4.98px;
+    background: #feaa01;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #fcfcfe;
+}
+.block4 h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #73b918;
+}
+.houses button {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+}
+.houses a {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+    color: #f7d047;
+}
+.block5 span {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 47px;
+    color: #2d2d2f;
+}
+.block5 nav button {
+    width: 158.96px;
+    height: 40.46px;
+    border: none;
+    text-align: center;
+    border-radius: 6.74px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 49px;
+}
+.block5 h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #4c4f56;
+}
+.time p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #7a7d81;
+}
+.time span {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #4c4f56;
+}
+.block5 p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #4c4f56;
+}
+.block5 aside span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #4c4f56;
+}
+.info p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.info span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #4c4f56;
+}
+/* .block6 h1 span {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 47px;
+    color: #2d2d2f;
+}
+.block6 article h3 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 26px;
+} */
+.block7 h1 span {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 47px;
+    color: #2d2d2f;
+}
+.block7 a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #85b73e;
+}
+.block7 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 37px;
+    color: #4c4f56;
+}
+.block7 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #56595f;
+}
+.block7 span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #56595f;
+}
+.specific p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #8e9093;
+}
+.specific span {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #434749;
+}
+.block7 button {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #fcfcfe;
+    background: #feaa01;
+    width: 233.68px;
+    height: 43.61px;
+    border-radius: 5.45px;
+    border: none;
+}
+.block8 h1 span {
+    colorf: #2d2d2f;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 37px;
+}
+.block8 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4c4f56;
+}
+.action p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+.action span {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #000000;
+}
+.block8 button {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #fcfcfe;
+    background: #feaa01;
+    width: 233.68px;
+    height: 43.61px;
+    border-radius: 5.45px;
+    border: none;
+}
+.block9 span {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #2d2d2f;
+}
+.block9 p {
+    color: #4c4f56;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.block9 button {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #fcfcfe;
+    background: #feaa01;
+    width: 233.68px;
+    height: 43.61px;
+    border-radius: 5.45px;
+    border: none;
+}
+.block10 span {
+    color: #2d2d2f;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.block10 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #363539;
+}
+.block10 p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000000;
+}
+.block10 a {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #f3b43f;
+}
+.block11 span {
+    color: #2d2d2f;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.block11 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6f7276;
+}
+.adv2 span {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #262425;
+}
+.adv2 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #434749;
+}
+.block12 span {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #2d2d2f;
+}
+.block13 span {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #2d2d2f;
+}
+.block13 p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #494b50;
+}
+.block13 aside p {
+    color: #262425;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.block13 button {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #fcfcfe;
+    background: #feaa01;
+    width: 233.68px;
+    height: 43.61px;
+    border-radius: 5.45px;
+    border: none;
+}
+.contacts span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #000000;
+}
+.contacts p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #4c4c4d;
+}
+.contacts h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #363435;
+}
+.contacts a {
+    color: #8cb746;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+.contacts button {
+    width: 237px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    background: #84b73d;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: center;
+}
+.loc p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #000000;
+}

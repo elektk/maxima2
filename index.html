@@ -1,150 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <section class="block1">
-      <header>
-        <article class="logo">
-          <p>Дома и бани от новгородских мастеров</p>
-        </article>
-        <article class="rating">Рейтинг</article>
-        <article class="send-project">
-          <button>Прислать проект на расчет</button><a>info@house.world</a>
-        </article>
-        <article class="go-to-whatsup"><p>Мы онлайн</p></article>
-        <article class="phone-number">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="block1">
+    <header class="header">
+      <article class="logo">
+        <p>Дома и бани от новгородских мастеров</p>
+      </article>
+      <article class="rating">Тут будет рейтинг</article>
+      <article class="send-project">
+        <button>Прислать проект на расчет
+        </button>
+        <a class="mail">info@house.world</a>
+      </article>
+      <article class="go-to-whatsup">
+        <p>Мы онлайн</p>
+      </article>
+      <article class="phone-number">
+        <div>
           <p>Без выходных с 10:00 до 20:00</p>
-          <p>+7 (800) 000-00-00</p>
-          <a>Заказать обратный звонок</a>
-        </article>
-      </header>
-      <section class="navigation">
-        <nav>
-          <select class="projects">
-            <option selected value="0">Проекты</option>
-            <option value="1">Банан</option>
-            <option value="2">Апельсин</option>
-            <option value="3">Яблоко</option>
-          </select>
-          <a href="" class="photo-projects">Фото работ</a>
-          <a href="" class="shares">Акции</a>
-          <select class="services">
-            <option selected value="0">Услуги</option>
-            <option value="1">Lorem</option>
-            <option value="2">Ipsum</option>
-            <option value="3">Dolor</option>
-          </select>
-          <select class="to-the-customer">
-            <option selected value="0">Заказчику</option>
-            <option value="1">Lorem</option>
-            <option value="2">Ipsum</option>
-            <option value="3">Dolor</option>
-          </select>
-          <a href="" class="contacts">Контакты</a>
-          <a href="" class="favorites">Избранное</a>
-          <a href="" class="search">Поиск</a>
-        </nav>
-      </section>
+        </div>
+        <div><span>+7 (800) 000-00-00</span></div>
+        <div><a>Заказать обратный звонок</a></div>
+      </article>
+    </header>
+    <section class="navigation">
+      <nav>
+        <a href="" class="projects">ПРОЕКТЫ</a>
+        <a href="" class="photo-projects">ФОТО РАБОТ</a>
+        <a href="" class="shares">АКЦИИ</a>
+        <a href="" class="services">УСЛУГИ</a>
+        <a href="" class="to-the-customer">ЗАКАЗЧИКУ</a>
+        <a href="" class="contacts">КОНТАКТЫ</a>
+        <a href="" class="favorites">ИЗБРАННОЕ</a>
+        <a href="" class="search">ПОИСК</a>
+      </nav>
+    </section>
+    <div class="content">
       <section class="center-content">
-        <h1><b>Строительство деревянных домов</b> под ключ в Курске</h1>
-        <h2>Построим теплый и надежный дом <b>с гарантией 10 лет</b></h2>
-        <button>рассчитать стоимость</button>
+        <h1>Строительство<br> деревянных домов</h1><span class="name1"> под ключ в Курске</span>
+        <p>Построим теплый и надежный дом <br><span class="name2">с гарантией 10 лет</span></p>
+        <button>РАСЧИТАТЬ СТОИМОСТЬ</button>
       </section>
       <section class="advantages">
-        <p>40 собственных опытных бригад</p>
-        <p>Свое производство строительных материалов</p>
-        <p>Тысячи довольных клиентов с 1998 года</p>
-        <p>Гарантия на все строительные работы по договору</p>
+        <p>40 собственных <br>опытных бригад</p>
+        <p>Свое производство <br>строительных материалов</p>
+        <p>Тысячи довольных <br>клиентов с 1998 года</p>
+        <p>Гарантия на все строительные <br>работы по договору</p>
       </section>
-    </section>
-    <section class="block2">
-      <h1><b>Рассчитайте предварительную стоимость</b> дома за 1 минуту</h1>
-      <form action="#">
-        <p><b>01. Что будем строить?</b></p>
-        <input id="yes" type="radio" name="question" />
-        <label for="yes">Дом</label>
-        <input id="no" type="radio" name="question" />
-        <label for="no">Баня</label>
-      </form>
-      <p>Нажимайте на вариант ответа и переходите к следующему вопросу</p>
-      <button>Далее</button>
-      <aside>
+    </div>
+  </section>
+  <section class="block2">
+    <h1>Рассчитайте предварительную<br> стоимость <span>дома за 1 минуту</span></h1>
+    <form action="#">
+      <h3><b>01. Что будем строить?</b></h3>
+      <input id="yes" type="radio" name="question" />
+      <label for="yes">Дом</label>
+      <input id="no" type="radio" name="question" />
+      <label for="no">Баня</label>
+    </form>
+    <div class="clue">
+      <p>Нажимайте на вариант ответа <br><span>и переходите к следующему вопросу</span></p>
+    </div>
+    <button>Далее</button>
+    <aside>
+      <div class="dir">
         <img class="man1" src="images/man1.png" alt="Mikhail" />
         <h2>Михаил Иванов</h2>
         <p>Ведущий архитектор</p>
-        <p>Ответив на вопросы вы получите:</p>
-        <p>Гарантированную скидку</p>
-        <p>Ориентировочную стоимость строительства</p>
-        <p>Точную подборку проектов исходя изваших ответов</p>
-      </aside>
-    </section>
-    <section class="block3">
-      <h1>
-        Мы строим деревянные дома и бани с учетом всех особенностей Курска
-      </h1>
-      <article class="card1">
-        <h2>Каркасные дома</h2>
-        <p>100+ проектов</p>
-        <p>от</p>
-        <h2>21 800</h2>
-        <p>руб/м</p>
-        <button>смотреть проекты</button>
-      </article>
-      <article class="card2">
-        <h2>Перевозные бани</h2>
-        <p>100+ проектов</p>
-        <p>от</p>
-        <h2>19 700</h2>
-        <p>руб/м</p>
-        <button>смотреть проекты</button>
-      </article>
-      <article class="card3">
-        <h2>Дома из бруса</h2>
-        <p>100+ проектов</p>
-        <p>от</p>
-        <h2>19 700</h2>
-        <p>руб/м</p>
-        <button>смотреть проекты</button>
-      </article>
-      <article class="card4">
-        <h2>Бани из бруса</h2>
-        <p>100+ проектов</p>
-        <p>от</p>
-        <h2>19 700</h2>
-        <p>руб/м</p>
-        <button>смотреть проекты</button>
-      </article>
-      <article class="card5">
-        <h2>Срубы под усадку</h2>
-        <p>100+ проектов</p>
-        <p>от</p>
-        <h2>19 700</h2>
-        <p>руб/м</p>
-        <button>смотреть проекты</button>
-      </article>
-      <article class="card6">
-        <h2>Срубы под усадку</h2>
-        <p>100+ проектов</p>
-        <p>от</p>
-        <h2>19 700</h2>
-        <p>руб/м</p>
-        <button>смотреть проекты</button>
-      </article>
-      <article class="card7">
-        <h2>Каркасные бани</h2>
-        <p>100+ проектов</p>
-        <p>от</p>
-        <h2>20 800</h2>
-        <p>руб/м</p>
-        <button>смотреть проекты</button>
-      </article>
-    </section>
-    <section class="block4">
-      <h1>Посмотрите популярные проекты домов</h1>
+      </div>
+      <div class="cond">
+        <p>Ответив на вопросы <span>вы получите:</span></p>
+      </div>
+      <div class="adv">
+        <p>Гарантированную <span>скидку</span></p>
+        <p>Ориентировочную <span>стоимость строительства</span></p>
+        <p>Точную подборку <span>проектов исходя изваших ответов</span></p>
+      </div>
+    </aside>
+  </section>
+  <section class="block3">
+    <h1>
+      Мы строим деревянные дома и бани<span> с учетом<br> всех особенностей Курска</span>
+    </h1>
+    <article class="card1">
+      <h2>Каркасные дома</h2>
+      <p>100+ проектов</p>
+      <p>от</p>
+      <h2>21 800</h2>
+      <p>руб/м</p>
+      <button>смотреть проекты</button>
+    </article>
+    <article class="card2">
+      <h2>Перевозные бани</h2>
+      <p>100+ проектов</p>
+      <p>от</p>
+      <h2>19 700</h2>
+      <p>руб/м</p>
+      <button>смотреть проекты</button>
+    </article>
+    <article class="card3">
+      <h2>Дома из бруса</h2>
+      <p>100+ проектов</p>
+      <p>от</p>
+      <h2>19 700</h2>
+      <p>руб/м</p>
+      <button>смотреть проекты</button>
+    </article>
+    <article class="card4">
+      <h2>Бани из бруса</h2>
+      <p>100+ проектов</p>
+      <p>от</p>
+      <h2>19 700</h2>
+      <p>руб/м</p>
+      <button>смотреть проекты</button>
+    </article>
+    <article class="card5">
+      <h2>Срубы под усадку</h2>
+      <p>100+ проектов</p>
+      <p>от</p>
+      <h2>19 700</h2>
+      <p>руб/м</p>
+      <button>смотреть проекты</button>
+    </article>
+    <article class="card6">
+      <h2>Срубы под усадку</h2>
+      <p>100+ проектов</p>
+      <p>от</p>
+      <h2>19 700</h2>
+      <p>руб/м</p>
+      <button>смотреть проекты</button>
+    </article>
+    <article class="card7">
+      <h2>Каркасные бани</h2>
+      <p>100+ проектов</p>
+      <p>от</p>
+      <h2>20 800</h2>
+      <p>руб/м</p>
+      <button>смотреть проекты</button>
+    </article>
+  </section>
+  <section class="block4">
+    <h1>Посмотрите популярные проекты домов</h1>
+    <div class="houses">
       <button>❮</button>
       <button>Одноэтажный</button>
       <button>С мансардой</button>
@@ -155,126 +164,133 @@
       <button>С гаражом</button>
       <button>❯</button>
       <a href="">Смотреть все</a>
-      <article class="card1">
-        <img class="card" src="images/Rectangle1.png" alt="background card1" />
-        <h2>“Атаман”</h2>
-        <p>Площадь: 108 м</p>
-        <p>Срок стройки: 16дней</p>
-        <p>Размеры: 7x9</p>
-        <p>Комнат: 5</p>
-        <p>Тип дома:</p>
-        <p>Каркасный</p>
-        <p>Стоимость:</p>
-        <p>от</p>
-        <h2>1 780 000</h2>
-        <p>руб</p>
-        <button>смотреть проекты</button>
-        <p>Индивидуальная планировка дома</p>
-      </article>
-      <article class="card2">
-        <img class="card" src="images/Rectangle1.png" alt="background card1" />
-        <h2>“Атаман”</h2>
-        <p>Площадь: 108 м</p>
-        <p>Срок стройки: 16дней</p>
-        <p>Размеры: 7x9</p>
-        <p>Комнат: 5</p>
-        <p>Тип дома:</p>
-        <p>Каркасный</p>
-        <p>Стоимость:</p>
-        <p>от</p>
-        <h2>1 780 000</h2>
-        <p>руб</p>
-        <button>смотреть проекты</button>
-        <p>Индивидуальная планировка дома</p>
-      </article>
-      <article class="card3">
-        <img class="card" src="images/Rectangle1.png" alt="background card1" />
-        <h2>“Атаман”</h2>
-        <p>Площадь: 108 м</p>
-        <p>Срок стройки: 16дней</p>
-        <p>Размеры: 7x9</p>
-        <p>Комнат: 5</p>
-        <p>Тип дома:</p>
-        <p>Каркасный</p>
-        <p>Стоимость:</p>
-        <p>от</p>
-        <h2>1 780 000</h2>
-        <p>руб</p>
-        <button>смотреть проекты</button>
-        <p>Индивидуальная планировка дома</p>
-      </article>
-      <article class="card4">
-        <img class="card" src="images/Rectangle1.png" alt="background card1" />
-        <h2>“Атаман”</h2>
-        <p>Площадь: 108 м</p>
-        <p>Срок стройки: 16дней</p>
-        <p>Размеры: 7x9</p>
-        <p>Комнат: 5</p>
-        <p>Тип дома:</p>
-        <p>Каркасный</p>
-        <p>Стоимость:</p>
-        <p>от</p>
-        <h2>1 780 000</h2>
-        <p>руб</p>
-        <button>смотреть проекты</button>
-        <p>Индивидуальная планировка дома</p>
-      </article>
-      <article class="card5">
-        <img class="card" src="images/Rectangle1.png" alt="background card1" />
-        <h2>“Атаман”</h2>
-        <p>Площадь: 108 м</p>
-        <p>Срок стройки: 16дней</p>
-        <p>Размеры: 7x9</p>
-        <p>Комнат: 5</p>
-        <p>Тип дома:</p>
-        <p>Каркасный</p>
-        <p>Стоимость:</p>
-        <p>от</p>
-        <h2>1 780 000</h2>
-        <p>руб</p>
-        <button>смотреть проекты</button>
-        <p>Индивидуальная планировка дома</p>
-      </article>
-      <article class="card6">
-        <h2>“Атаман”</h2>
-        <p>Площадь: 108 м</p>
-        <p>Срок стройки: 16дней</p>
-        <p>Размеры: 7x9</p>
-        <p>Комнат: 5</p>
-        <p>Тип дома:</p>
-        <p>Каркасный</p>
-        <p>Стоимость:</p>
-        <p>от</p>
-        <h2>1 780 000</h2>
-        <p>руб</p>
-        <button>смотреть проекты</button>
-        <p>Индивидуальная планировка дома</p>
-      </article>
-    </section>
+    </div>
+    <article class="card1">
+      <img class="card" src="images/Rectangle1.png" alt="background card1" />
+      <h2>“Атаман”</h2>
+      <p>Площадь: <span>108 м</span></p>
+      <p>Срок стройки: <span>16дней</span></p>
+      <p>Размеры: <span>7x9</span></p>
+      <p>Комнат: <span>5</span></p>
+      <p>Тип дома:</p>
+      <p><span>Каркасный</span></p>
+      <p>Стоимость:</p>
+      <p><span>от</span></p>
+      <h3>1 780 000</h3>
+      <p><span>руб</span></p>
+      <button>смотреть проекты</button>
+      <p>Индивидуальная планировка дома</p>
+    </article>
+    <article class="card2">
+      <img class="card" src="images/Rectangle1.png" alt="background card1" />
+      <h2>“Атаман”</h2>
+      <p>Площадь: <span>108 м</span></p>
+      <p>Срок стройки: <span>16дней</span></p>
+      <p>Размеры: <span>7x9</span></p>
+      <p>Комнат: <span>5</span></p>
+      <p>Тип дома:</p>
+      <p><span>Каркасный</span></p>
+      <p>Стоимость:</p>
+      <p><span>от</span></p>
+      <h3>1 780 000</h3>
+      <p><span>руб</span></p>
+      <button>смотреть проекты</button>
+      <p>Индивидуальная планировка дома</p>
+    </article>
+    <article class="card3">
+      <img class="card" src="images/Rectangle1.png" alt="background card1" />
+      <h2>“Атаман”</h2>
+      <p>Площадь: <span>108 м</span></p>
+      <p>Срок стройки: <span>16дней</span></p>
+      <p>Размеры: <span>7x9</span></p>
+      <p>Комнат: <span>5</span></p>
+      <p>Тип дома:</p>
+      <p><span>Каркасный</span></p>
+      <p>Стоимость:</p>
+      <p><span>от</span></p>
+      <h3>1 780 000</h3>
+      <p><span>руб</span></p>
+      <button>смотреть проекты</button>
+      <p>Индивидуальная планировка дома</p>
+    </article>
+    <article class="card4">
+      <img class="card" src="images/Rectangle1.png" alt="background card1" />
+      <h2>“Атаман”</h2>
+      <p>Площадь: <span>108 м</span></p>
+      <p>Срок стройки: <span>16дней</span></p>
+      <p>Размеры: <span>7x9</span></p>
+      <p>Комнат: <span>5</span></p>
+      <p>Тип дома:</p>
+      <p><span>Каркасный</span></p>
+      <p>Стоимость:</p>
+      <p><span>от</span></p>
+      <h3>1 780 000</h3>
+      <p><span>руб</span></p>
+      <button>смотреть проекты</button>
+      <p>Индивидуальная планировка дома</p>
+    </article>
+    <article class="card5">
+      <img class="card" src="images/Rectangle1.png" alt="background card1" />
+      <h2>“Атаман”</h2>
+      <p>Площадь: <span>108 м</span></p>
+      <p>Срок стройки: <span>16дней</span></p>
+      <p>Размеры: <span>7x9</span></p>
+      <p>Комнат: <span>5</span></p>
+      <p>Тип дома:</p>
+      <p><span>Каркасный</span></p>
+      <p>Стоимость:</p>
+      <p><span>от</span></p>
+      <h3>1 780 000</h3>
+      <p><span>руб</span></p>
+      <button>смотреть проекты</button>
+      <p>Индивидуальная планировка дома</p>
+    </article>
+    <article class="card6">
+      <img class="card" src="images/Rectangle1.png" alt="background card1" />
+      <h2>“Атаман”</h2>
+      <p>Площадь: <span>108 м</span></p>
+      <p>Срок стройки: <span>16дней</span></p>
+      <p>Размеры: <span>7x9</span></p>
+      <p>Комнат: <span>5</span></p>
+      <p>Тип дома:</p>
+      <p><span>Каркасный</span></p>
+      <p>Стоимость:</p>
+      <p><span>от</span></p>
+      <h3>1 780 000</h3>
+      <p><span>руб</span></p>
+      <button>смотреть проекты</button>
+      <p>Индивидуальная планировка дома</p>
+    </article>
     <section class="block5">
-      <h1>Ваш <b>идеальный дом</b> всего за 6 этапов</h1>
-      <button>Этап 1</button>
-      <button>Этап 2</button>
-      <button>Этап 3</button>
-      <button>Этап 4</button>
-      <button>Этап 5</button>
-      <button>Этап 6</button>
+      <h1><span>Ваш </span>идеальный дом <span>всего за 6 этапов</span></h1>
+      <nav>
+        <button>Этап 1</button>
+        <button>Этап 2</button>
+        <button>Этап 3</button>
+        <button>Этап 4</button>
+        <button>Этап 5</button>
+        <button>Этап 6</button>
+      </nav>
       <img class="group" src="images/group.png" alt="img_blok5" />
       <aside>
-        <p>Время: <b>1 день</b></p>
+        <div class="time">
+          <p>Время: <span>1 день</span></p>
+        </div>
         <h2>Согласование проекта коттеджа</h2>
         <p><b>Выбор</b> объекта</p>
         <p><b>Расчет</b> стоимости</p>
         <p><b>Утверждение</b> планировки</p>
-        <p>
-          Первый этап <b>помогает вам узнать преимущества работы с нами</b> и ни
-          к чему вас не обязывает
-        </p>
+        <div class="info">
+          <p>
+            Первый этап <span>помогает вам узнать преимущества работы с нами</span> и ни
+            к чему вас не обязывает
+          </p>
+        </div>
         <p>Пример договора</p>
       </aside>
     </section>
-    <section class="block6">
-      <h1><b>Акции и подарки</b> для каждой семьи</h1>
+    <!-- <section class="block6">
+      <h1>Акции и подарки<span> для каждой семьи</span></h1>
       <article>
         <h3>Любая перепланировка в подарок!</h3>
         <p>
@@ -291,67 +307,57 @@
         </p>
         <button>перейти к акции</button>
       </article>
-    </section>
+    </section> -->
     <section class="block7">
-      <h1><b>Посмотрите дома</b>, построенные нами за прошлый год</h1>
+      <h1>Посмотрите<span> дома, построенные нами за прошлый год</span></h1>
+      <img class="present" src="images/Rectangle2.png" alt="img_present" />
+      <img class="present" src="images/Rectangle2.png" alt="img_present" />
+      <img class="present" src="images/Rectangle2.png" alt="img_present" />
+      <img class="present" src="images/Rectangle2.png" alt="img_present" />
       <a href="">Показать на карте</a>
       <h2>Дом из сруба “Атаман” в Пестово</h2>
-      <p>Стоимость строительства:</p>
-      <h2>1 780 000</h2>
-      <p>руб</p>
-      <p>Срок строительства:</p>
-      <h2>35</h2>
-      <p>дней</p>
-      <img class="present" src="images/Rectangle2.png" alt="img_present" />
-      <img class="present" src="images/Rectangle2.png" alt="img_present" />
-      <img class="present" src="images/Rectangle2.png" alt="img_present" />
-      <img class="present" src="images/Rectangle2.png" alt="img_present" />
-      <p>Общая площадь:</p>
-      <h2>120</h2>
-      <p>м.кв.</p>
-      <p>Площадь:<b>120 кв.м.</b></p>
-      <p>Размеры:<b>7х9</b></p>
-      <p>Тип работ:<b>120 кв.м.</b></p>
-      <p>Срок стройки:<b>16 дней</b></p>
-      <p>Комнат:<b>5</b></p>
-      <p>Фундамент:<b>Монолитная плита</b></p>
-      <p><b>Понравился дом?</b> Рассчитайте стоимость в калькуляторе</p>
+      <div class="specific">
+        <p>Стоимость строительства:</p>
+        <span>1 780 000</span>
+        <p>руб</p>
+        <p>Срок строительства:</p>
+        <span>35</span>
+        <p>дней</p>
+        <p>Общая площадь:</p>
+        <span>120</span>
+        <p>м.кв.</p>
+      </div>
+      <p>Площадь: <span>120 кв.м.</span></p>
+      <p>Размеры: <span>7х9</span></p>
+      <p>Тип работ: <span>120 кв.м.</span></p>
+      <p>Срок стройки: <span>16 дней</span></p>
+      <p>Комнат: <span>5</span></p>
+      <p>Фундамент: <span>Монолитная плита</span></p>
+      <p><span>Понравился дом?</span> Рассчитайте стоимость в калькуляторе</p>
       <button>Рассчитать стоимость</button>
     </section>
     <section class="block8">
-      <h1>Запишитесь на <b>бесплатную экскурсию</b> по строящимся объектам</h1>
+      <h1><span>Запишитесь</span> на бесплатную экскурсию <span>по строящимся объектам</span></h1>
       <p>
         На экскурсии вы сможете пообщаться с прорабом и строителями, а также:
       </p>
-      <p><b>Познакомитесь</b> с технологией строительства</p>
-      <p><b>Оцените</b> качество материалов на стройплощадке</p>
-      <p><b>Зададите</b> вопросы руководителю строительства</p>
+      <div class="action">
+        <p><span>Познакомитесь</span> с технологией строительства</p>
+        <p><span>Оцените</span> качество материалов на стройплощадке</p>
+        <p><span>Зададите</span> вопросы руководителю строительства</p>
+      </div>
       <label for="start">Укажите дату:</label>
-      <input
-        type="date"
-        id="start"
-        name="trip-start"
-        value="2022-01-23"
-        min="2018-01-01"
-        max="2018-12-31"
-      />
+      <input type="date" id="start" name="trip-start" value="2022-01-23" min="2018-01-01" max="2018-12-31" />
       <label for="phone">Введите телефон:</label>
-      <input
-        type="tel"
-        id="phone"
-        name="phone"
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-        required
-        placeholder="+7"
-      />
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="+7" />
       <button>Записаться на экскурсию</button>
       <p>
-        Нажимая на кнопку, вы соглашаетесь с условиями Политики
+        <span>Нажимая на кнопку, вы соглашаетесь с условиями </span>Политики
         конфиденциальности
       </p>
     </section>
     <section class="block9">
-      <h1><b>Скачайте каталог проектов</b> с ценами и планировками</h1>
+      <h1>Скачайте каталог проектов<span> с ценами и планировками</span></h1>
       <aside>
         <p><b>Скачайте каталог</b> топовых проектов</p>
         <p>Мы вышлем подборку вам в мессенджер</p>
@@ -360,14 +366,7 @@
         <p>Viber</p>
         <p>Telegram</p>
         <form action="#">
-          <input
-            type="tel"
-            id="phone1"
-            name="phone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            required
-            placeholder="+7"
-          />
+          <input type="tel" id="phone1" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="+7" />
           <button>Получить каталог проектов</button>
           <p>
             Нажимая на кнопку, вы соглашаетесь с условиями Политики
@@ -377,7 +376,7 @@
       </aside>
     </section>
     <section class="block10">
-      <h1><b>Более 200 отзывов</b> от наших клиентов</h1>
+      <h1>Более 200 отзывов<span> от наших клиентов</span></h1>
       <article>
         <h3>Дарья Достоевская</h3>
         <p>23 декабря 2022</p>
@@ -409,36 +408,30 @@
     <section class="block11">
       <img class="oleg" src="images/man2.png" alt="man2" />
       <h1>
-        <b>Здравствуйте, я Олег Соловьев</b>, директор и основатель компании.
+        Здравствуйте,<br> я Олег Соловьев,<br> <span>директор и основатель компании.</span>
       </h1>
       <p>
-        На рынке строительных услуг мы уже 14 лет. за это время нам удалось
-        сформировать сплоченный коллектив специалистов с более чем
-        двадцатилетним стажем. Вместе с тем я слежу за тем, чтобы наши
-        специалисты оставались в курсе последних технологий, совершенствовали
+        На рынке строительных услуг мы уже 14 лет. за это время нам удалось<br>
+        сформировать сплоченный коллектив специалистов с более<br> чем
+        двадцатилетним стажем. Вместе с тем я слежу за тем,<br> чтобы наши
+        специалисты оставались в курсе последних<br> технологий, совершенствовали
         свои навыки.
       </p>
-      <h3>10</h3>
-      <p>лет компания на рынке</p>
-      <h3>200</h3>
-      <p>объектов постреоно</p>
-      <h3>5</h3>
-      <p>лет гарантия на работы</p>
+      <div class="adv2">
+        <span>10</span>
+        <p>лет компания на рынке</p>
+        <span>200</span>
+        <p>объектов постреоно</p>
+        <span>5</span>
+        <p>лет гарантия на работы</p>
+      </div>
     </section>
     <section class="block12">
-      <h1>Мы готовы ответить на <b>любой вопрос</b></h1>
+      <h1><span>Мы готовы ответить на </span>любой вопрос</h1>
       <p>
-        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами,
-        когда нужно выстро заполнить макеты или прототипы содержимым.
+        Рыбатекст используется дизайнерами,<br> проектировщиками и фронтендерами,<br>
+        когда нужно выстро заполнить макеты<br> или прототипы содержимым.
       </p>
-      <details>
-        <summary>Возможна ли разработка индивидуального проекта?</summary>
-        <p>
-          Рыбатекст используется дизайнерами, проектировщиками и фронтендерами,
-          когда нужно выстро заполнить макеты или прототипы содержимым.
-          Рыбатекст используется дизайнерами, проектировщиками и фронтендерами
-        </p>
-      </details>
       <details>
         <summary>Возможна ли разработка индивидуального проекта?</summary>
         <p>
@@ -482,8 +475,8 @@
     </section>
     <section class="block13">
       <h1>
-        <b>Если у вас уже есть смета на строительство</b> в 95% случаев мы
-        предлагаем меньшую стоимость и без потери качества
+        Если у вас уже есть<br> смета на строительство<br> <span>в 95% случаев мы
+          предлагаем<br> меньшую стоимость<br> и без потери качества</span>
       </h1>
       <p><b>Как мы этого добиваемся?</b></p>
       <p>
@@ -491,13 +484,10 @@
       </p>
       <p>Оптимальный подбор материалов и поставщиков (экономия до 15%)</p>
       <p>Налаженный рабочий процесс без потери времени (экономия до 20%)</p>
-      <h1><b>Скачайте каталог проектов</b> с ценами и планировками</h1>
       <aside>
         <p>
-          <b
-            >Просто прикрепите готовую смету и вы узнаете, как сэкономить на
-            стройке</b
-          >
+          Просто прикрепите готовую смету и вы узнаете, как сэкономить на
+          стройке
         </p>
         <p>
           Инженер-сметчик рассчитает стоимость работ и материалов по оптовым
@@ -509,14 +499,7 @@
         <p>Viber</p>
         <p>Telegram</p>
         <form action="#">
-          <input
-            type="tel"
-            id="phone2"
-            name="phone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            required
-            placeholder="+7"
-          />
+          <input type="tel" id="phone2" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="+7" />
           <button>Получить каталог проектов</button>
           <p>
             Нажимая на кнопку, вы соглашаетесь с условиями Политики
@@ -526,23 +509,22 @@
       </aside>
     </section>
     <section class="block14">
-      <p><b>Наши контакты</b></p>
-      <p>г. Москва, улица Рубинштейна, 43</p>
-      <p>Без выходных с 10:00 до 20:00</p>
-      <h3>+ 7 (800) 000-00-00</h3>
+      <div class="contacts">
+        <span>Наши контакты</span>
+        <p>г. Москва, улица Рубинштейна, 43</p>
+        <p>Без выходных с 10:00 до 20:00</p>
+        <h3>+ 7 (800) 000-00-00</h3>
+        <a href="">Заказать обратный звонок</a>
+        <p>Пишите , мы онлайн</p>
+        <button>Рассчитать стоимость</button>
+      </div>
+      <div class="loc">
       <p><b>Приезжайте к нам в офис</b></p>
-      <a href="">Заказать обратный звонок</a>
-      <p>Пишите , мы онлайн</p>
-      <button>Рассчитать стоимость</button>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.680213492691!2d37.62392187673176!3d55.74668509246246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8c2291b63%3A0x133c556714b6d639!2sGoogle!5e0!3m2!1sru!2sru!4v1698266616086!5m2!1sru!2sru"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
     <footer>
       <section class="navigation">
@@ -575,5 +557,6 @@
       <p>Все права защищены 2022.</p>
       <p>Политика обработки персональных данных</p>
     </footer>
-  </body>
+</body>
+
 </html>
