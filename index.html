@@ -154,7 +154,7 @@
   <section class="block4">
     <h1>Посмотрите популярные проекты домов</h1>
     <div class="houses">
-      <button>❮</button>
+      <button id="arrow">❮</button>
       <button>Одноэтажный</button>
       <button>С мансардой</button>
       <button>Двухэтажный</button>
@@ -162,105 +162,288 @@
       <button>Трехэтажные</button>
       <button>С панорамными окнами</button>
       <button>С гаражом</button>
-      <button>❯</button>
-      <a href="">Смотреть все</a>
+      <button id="arrow">❯</button>
+      <a id="see" href="">Смотреть все</a>
     </div>
-    <article class="card1">
-      <img class="card" src="images/Rectangle1.png" alt="background card1" />
-      <h2>“Атаман”</h2>
-      <p>Площадь: <span>108 м</span></p>
-      <p>Срок стройки: <span>16дней</span></p>
-      <p>Размеры: <span>7x9</span></p>
-      <p>Комнат: <span>5</span></p>
-      <p>Тип дома:</p>
-      <p><span>Каркасный</span></p>
-      <p>Стоимость:</p>
-      <p><span>от</span></p>
-      <h3>1 780 000</h3>
-      <p><span>руб</span></p>
-      <button>смотреть проекты</button>
-      <p>Индивидуальная планировка дома</p>
-    </article>
-    <article class="card2">
-      <img class="card" src="images/Rectangle1.png" alt="background card1" />
-      <h2>“Атаман”</h2>
-      <p>Площадь: <span>108 м</span></p>
-      <p>Срок стройки: <span>16дней</span></p>
-      <p>Размеры: <span>7x9</span></p>
-      <p>Комнат: <span>5</span></p>
-      <p>Тип дома:</p>
-      <p><span>Каркасный</span></p>
-      <p>Стоимость:</p>
-      <p><span>от</span></p>
-      <h3>1 780 000</h3>
-      <p><span>руб</span></p>
-      <button>смотреть проекты</button>
-      <p>Индивидуальная планировка дома</p>
-    </article>
-    <article class="card3">
-      <img class="card" src="images/Rectangle1.png" alt="background card1" />
-      <h2>“Атаман”</h2>
-      <p>Площадь: <span>108 м</span></p>
-      <p>Срок стройки: <span>16дней</span></p>
-      <p>Размеры: <span>7x9</span></p>
-      <p>Комнат: <span>5</span></p>
-      <p>Тип дома:</p>
-      <p><span>Каркасный</span></p>
-      <p>Стоимость:</p>
-      <p><span>от</span></p>
-      <h3>1 780 000</h3>
-      <p><span>руб</span></p>
-      <button>смотреть проекты</button>
-      <p>Индивидуальная планировка дома</p>
-    </article>
-    <article class="card4">
-      <img class="card" src="images/Rectangle1.png" alt="background card1" />
-      <h2>“Атаман”</h2>
-      <p>Площадь: <span>108 м</span></p>
-      <p>Срок стройки: <span>16дней</span></p>
-      <p>Размеры: <span>7x9</span></p>
-      <p>Комнат: <span>5</span></p>
-      <p>Тип дома:</p>
-      <p><span>Каркасный</span></p>
-      <p>Стоимость:</p>
-      <p><span>от</span></p>
-      <h3>1 780 000</h3>
-      <p><span>руб</span></p>
-      <button>смотреть проекты</button>
-      <p>Индивидуальная планировка дома</p>
-    </article>
-    <article class="card5">
-      <img class="card" src="images/Rectangle1.png" alt="background card1" />
-      <h2>“Атаман”</h2>
-      <p>Площадь: <span>108 м</span></p>
-      <p>Срок стройки: <span>16дней</span></p>
-      <p>Размеры: <span>7x9</span></p>
-      <p>Комнат: <span>5</span></p>
-      <p>Тип дома:</p>
-      <p><span>Каркасный</span></p>
-      <p>Стоимость:</p>
-      <p><span>от</span></p>
-      <h3>1 780 000</h3>
-      <p><span>руб</span></p>
-      <button>смотреть проекты</button>
-      <p>Индивидуальная планировка дома</p>
-    </article>
-    <article class="card6">
-      <img class="card" src="images/Rectangle1.png" alt="background card1" />
-      <h2>“Атаман”</h2>
-      <p>Площадь: <span>108 м</span></p>
-      <p>Срок стройки: <span>16дней</span></p>
-      <p>Размеры: <span>7x9</span></p>
-      <p>Комнат: <span>5</span></p>
-      <p>Тип дома:</p>
-      <p><span>Каркасный</span></p>
-      <p>Стоимость:</p>
-      <p><span>от</span></p>
-      <h3>1 780 000</h3>
-      <p><span>руб</span></p>
-      <button>смотреть проекты</button>
-      <p>Индивидуальная планировка дома</p>
-    </article>
+    <div class="cards">
+      <article class="card1">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <div class="spec-1">
+          <div class="lspec-1">
+            <p>Площадь: <span>108 м</span></p>
+            <p>Размеры: <span>7x9</span></p>
+          </div>
+          <div class="rspec-1">
+            <p>Срок стройки: <span>16 дней</span></p>
+            <p>Комнат: <span>5</span></p>
+          </div>
+        </div>
+        <div class="spec-2">
+          <div class="lspec-2">
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Тип дома:</p>
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Стоимость:</p>
+          </div>
+          <div class="rspec-2">
+            <p id="karkas"><span>Каркасный</span></p>
+            <div class="inline">
+              <p><span>от</span></p>
+              <p id="price">1 780 000</p>
+              <p><span>руб</span></p>
+            </div>
+          </div>
+        </div>
+        <button>смотреть проекты &nbsp;&nbsp;❯</button>
+        <div>
+          <img id="img-group" src="./images/group.svg" alt="group">
+          <p id="plan">Индивидуальная<br> планировка дома</p>
+        </div>
+      </article>
+      <article class="card1">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <div class="spec-1">
+          <div class="lspec-1">
+            <p>Площадь: <span>108 м</span></p>
+            <p>Размеры: <span>7x9</span></p>
+          </div>
+          <div class="rspec-1">
+            <p>Срок стройки: <span>16 дней</span></p>
+            <p>Комнат: <span>5</span></p>
+          </div>
+        </div>
+        <div class="spec-2">
+          <div class="lspec-2">
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Тип дома:</p>
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Стоимость:</p>
+          </div>
+          <div class="rspec-2">
+            <p id="karkas"><span>Каркасный</span></p>
+            <div class="inline">
+              <p><span>от</span></p>
+              <p id="price">1 780 000</p>
+              <p><span>руб</span></p>
+            </div>
+          </div>
+        </div>
+        <button>смотреть проекты &nbsp;&nbsp;❯</button>
+        <div>
+          <img id="img-group" src="./images/group.svg" alt="group">
+          <p id="plan">Индивидуальная<br> планировка дома</p>
+        </div>
+      </article>
+      <article class="card1">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <div class="spec-1">
+          <div class="lspec-1">
+            <p>Площадь: <span>108 м</span></p>
+            <p>Размеры: <span>7x9</span></p>
+          </div>
+          <div class="rspec-1">
+            <p>Срок стройки: <span>16 дней</span></p>
+            <p>Комнат: <span>5</span></p>
+          </div>
+        </div>
+        <div class="spec-2">
+          <div class="lspec-2">
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Тип дома:</p>
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Стоимость:</p>
+          </div>
+          <div class="rspec-2">
+            <p id="karkas"><span>Каркасный</span></p>
+            <div class="inline">
+              <p><span>от</span></p>
+              <p id="price">1 780 000</p>
+              <p><span>руб</span></p>
+            </div>
+          </div>
+        </div>
+        <button>смотреть проекты &nbsp;&nbsp;❯</button>
+        <div>
+          <img id="img-group" src="./images/group.svg" alt="group">
+          <p id="plan">Индивидуальная<br> планировка дома</p>
+        </div>
+      </article>
+      <article class="card1">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <div class="spec-1">
+          <div class="lspec-1">
+            <p>Площадь: <span>108 м</span></p>
+            <p>Размеры: <span>7x9</span></p>
+          </div>
+          <div class="rspec-1">
+            <p>Срок стройки: <span>16 дней</span></p>
+            <p>Комнат: <span>5</span></p>
+          </div>
+        </div>
+        <div class="spec-2">
+          <div class="lspec-2">
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Тип дома:</p>
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Стоимость:</p>
+          </div>
+          <div class="rspec-2">
+            <p id="karkas"><span>Каркасный</span></p>
+            <div class="inline">
+              <p><span>от</span></p>
+              <p id="price">1 780 000</p>
+              <p><span>руб</span></p>
+            </div>
+          </div>
+        </div>
+        <button>смотреть проекты &nbsp;&nbsp;❯</button>
+        <div>
+          <img id="img-group" src="./images/group.svg" alt="group">
+          <p id="plan">Индивидуальная<br> планировка дома</p>
+        </div>
+      </article>
+      <article class="card1">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <div class="spec-1">
+          <div class="lspec-1">
+            <p>Площадь: <span>108 м</span></p>
+            <p>Размеры: <span>7x9</span></p>
+          </div>
+          <div class="rspec-1">
+            <p>Срок стройки: <span>16 дней</span></p>
+            <p>Комнат: <span>5</span></p>
+          </div>
+        </div>
+        <div class="spec-2">
+          <div class="lspec-2">
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Тип дома:</p>
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Стоимость:</p>
+          </div>
+          <div class="rspec-2">
+            <p id="karkas"><span>Каркасный</span></p>
+            <div class="inline">
+              <p><span>от</span></p>
+              <p id="price">1 780 000</p>
+              <p><span>руб</span></p>
+            </div>
+          </div>
+        </div>
+        <button>смотреть проекты &nbsp;&nbsp;❯</button>
+        <div>
+          <img id="img-group" src="./images/group.svg" alt="group">
+          <p id="plan">Индивидуальная<br> планировка дома</p>
+        </div>
+      </article>
+      <article class="card1">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <div class="spec-1">
+          <div class="lspec-1">
+            <p>Площадь: <span>108 м</span></p>
+            <p>Размеры: <span>7x9</span></p>
+          </div>
+          <div class="rspec-1">
+            <p>Срок стройки: <span>16 дней</span></p>
+            <p>Комнат: <span>5</span></p>
+          </div>
+        </div>
+        <div class="spec-2">
+          <div class="lspec-2">
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Тип дома:</p>
+            <p><img src="./images/ellipse.svg" alt="ellipse">&nbsp;&nbsp;&nbsp;Стоимость:</p>
+          </div>
+          <div class="rspec-2">
+            <p id="karkas"><span>Каркасный</span></p>
+            <div class="inline">
+              <p><span>от</span></p>
+              <p id="price">1 780 000</p>
+              <p><span>руб</span></p>
+            </div>
+          </div>
+        </div>
+        <button>смотреть проекты &nbsp;&nbsp;❯</button>
+        <div>
+          <img id="img-group" src="./images/group.svg" alt="group">
+          <p id="plan">Индивидуальная<br> планировка дома</p>
+        </div>
+      </article>
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <p>Площадь: <span>108 м</span></p>
+        <p>Срок стройки: <span>16дней</span></p>
+        <p>Размеры: <span>7x9</span></p>
+        <p>Комнат: <span>5</span></p>
+        <p>Тип дома:</p>
+        <p><span>Каркасный</span></p>
+        <p>Стоимость:</p>
+        <p><span>от</span></p>
+        <h3>1 780 000</h3>
+        <p><span>руб</span></p>
+        <button>смотреть проекты</button>
+        <p>Индивидуальная планировка дома</p>
+      </article>
+      <article class="card3">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <p>Площадь: <span>108 м</span></p>
+        <p>Срок стройки: <span>16дней</span></p>
+        <p>Размеры: <span>7x9</span></p>
+        <p>Комнат: <span>5</span></p>
+        <p>Тип дома:</p>
+        <p><span>Каркасный</span></p>
+        <p>Стоимость:</p>
+        <p><span>от</span></p>
+        <h3>1 780 000</h3>
+        <p><span>руб</span></p>
+        <button>смотреть проекты</button>
+        <p>Индивидуальная планировка дома</p>
+      </article>
+      <article class="card4">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <p>Площадь: <span>108 м</span></p>
+        <p>Срок стройки: <span>16дней</span></p>
+        <p>Размеры: <span>7x9</span></p>
+        <p>Комнат: <span>5</span></p>
+        <p>Тип дома:</p>
+        <p><span>Каркасный</span></p>
+        <p>Стоимость:</p>
+        <p><span>от</span></p>
+        <h3>1 780 000</h3>
+        <p><span>руб</span></p>
+        <button>смотреть проекты</button>
+        <p>Индивидуальная планировка дома</p>
+      </article>
+      <article class="card5">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <p>Площадь: <span>108 м</span></p>
+        <p>Срок стройки: <span>16дней</span></p>
+        <p>Размеры: <span>7x9</span></p>
+        <p>Комнат: <span>5</span></p>
+        <p>Тип дома:</p>
+        <p><span>Каркасный</span></p>
+        <p>Стоимость:</p>
+        <p><span>от</span></p>
+        <h3>1 780 000</h3>
+        <p><span>руб</span></p>
+        <button>смотреть проекты</button>
+        <p>Индивидуальная планировка дома</p>
+      </article>
+      <article class="card6">
+        <img class="card" src="images/Rectangle1.png" alt="background card1" />
+        <h2>“Атаман”</h2>
+        <p>Площадь: <span>108 м</span></p>
+        <p>Срок стройки: <span>16дней</span></p>
+        <p>Размеры: <span>7x9</span></p>
+        <p>Комнат: <span>5</span></p>
+        <p>Тип дома:</p>
+        <p><span>Каркасный</span></p>
+        <p>Стоимость:</p>
+        <p><span>от</span></p>
+        <h3>1 780 000</h3>
+        <p><span>руб</span></p>
+        <button>смотреть проекты</button>
+        <p>Индивидуальная планировка дома</p>
+      </article> -->
+    </div>
     <section class="block5">
       <h1><span>Ваш </span>идеальный дом <span>всего за 6 этапов</span></h1>
       <nav>
@@ -519,11 +702,11 @@
         <button>Рассчитать стоимость</button>
       </div>
       <div class="loc">
-      <p><b>Приезжайте к нам в офис</b></p>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.680213492691!2d37.62392187673176!3d55.74668509246246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8c2291b63%3A0x133c556714b6d639!2sGoogle!5e0!3m2!1sru!2sru!4v1698266616086!5m2!1sru!2sru"
-        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p><b>Приезжайте к нам в офис</b></p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.680213492691!2d37.62392187673176!3d55.74668509246246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8c2291b63%3A0x133c556714b6d639!2sGoogle!5e0!3m2!1sru!2sru!4v1698266616086!5m2!1sru!2sru"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
     <footer>

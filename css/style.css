@@ -47,6 +47,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background: #F5F6FA;
+    width: 1437px;
+}
 h1 {
     font-size: 47px;
     font-weight: 700;
@@ -302,10 +306,87 @@ label {
     border-radius: 3.32px;
     border: none;
 }
+.block4 h1 {
+    text-align: center;
+}
+.houses {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.houses button {
+    margin-left: 10px;
+    padding: 6px 10px 6px 10px;
+    top: 2490px;
+    left: 200.59px;
+    border-radius: 3.73px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    cursor: pointer;
+    background: #EFEFEF;
+    color: #5C5F66;
+    border: none;
+    white-space: nowrap;
+}
+#arrow {
+    background-color: rgba(28,28,28,0)
+}
+#see {
+    text-decoration: none;
+    border-bottom: dashed;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+    color: #f7d047;
+}
+.cards {
+    display: inline-block;
+    margin: 0 0 0 167px;
+}
+.cards article {
+    background: #FFFFFF;
+    width: 350px;
+    height: 505px;
+    border-radius: 14px;
+    display: inline-block;
+    margin: 0 29px 25px 0;
+}
+.cards h2 {
+    padding: 28px 191px 0 31px;
+}
 .block4 h2 {
     font-size: 29px;
     font-weight: 700;
     line-height: 29px;
+}
+.spec-1 div{
+    display: inline-block;
+    margin: 9px 0 0 0;
+}
+.spec-2 div{
+    display: inline-block;
+    margin: 9px 0 0 0;
+}
+.lspec-1 p{
+    margin: 9px 0 0 31px;
+}
+.rspec-1 p{
+    margin: 9px 0 0 44px;
+}
+.lspec-2 p{
+    padding-top: 10px;
+    margin: 9px 0 0 31px;
+}
+.rspec-2 {
+    padding-left: 13px;
+}
+.rspec-2 p{
+    padding-left: 6px;
+}
+#karkas {
+    padding-left: 135px;
 }
 .block4 p {
     font-size: 13px;
@@ -313,13 +394,20 @@ label {
     line-height: 13px;
     color: #7a7d81;
 }
+.inline p {
+    display: inline-block;
+}
 .block4 span {
     font-size: 13px;
     font-weight: 600;
     line-height: 13px;
     color: #7a7d81;
 }
+.rspec-2 span {
+    color: #5C5F66;
+}
 .block4 article button {
+    margin: 25px 0 0 31px;
     text-transform: uppercase;
     width: 181.64px;
     height: 39.81px;
@@ -331,22 +419,25 @@ label {
     line-height: 16px;
     color: #fcfcfe;
 }
-.block4 h3 {
+#price {
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
     color: #73b918;
 }
-.houses button {
-    font-size: 13px;
+#plan {
+    font-size: 9px;
     font-weight: 400;
-    line-height: 13px;
+    line-height: 9px;
+    color: #B8B8BA;
+    position: relative;
+    left: 248px;
+    bottom: 45px;
 }
-.houses a {
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 13px;
-    color: #f7d047;
+#img-group {
+    position: relative;
+    left: 228px;
+    bottom: 26px;
 }
 .block5 span {
     font-size: 47px;
@@ -471,7 +562,7 @@ label {
     border: none;
 }
 .block8 h1 span {
-    colorf: #2d2d2f;
+    color: #2d2d2f;
     font-size: 36px;
     font-weight: 400;
     line-height: 37px;
