@@ -329,10 +329,10 @@ label {
     border: none;
     white-space: nowrap;
 }
-#arrow {
+.houses__arrow {
     background-color: rgba(28,28,28,0)
 }
-#see {
+.houses__see-all {
     text-decoration: none;
     border-bottom: dashed;
     margin-left: 50px;
@@ -341,11 +341,11 @@ label {
     line-height: 13px;
     color: #f7d047;
 }
-.cards {
+.houses__cards {
     display: inline-block;
     margin: 0 0 0 167px;
 }
-.cards article {
+.houses__cards article {
     background: #FFFFFF;
     width: 350px;
     height: 505px;
@@ -353,7 +353,7 @@ label {
     display: inline-block;
     margin: 0 29px 25px 0;
 }
-.cards h2 {
+.houses__cards h2 {
     padding: 28px 191px 0 31px;
 }
 .block4 h2 {
@@ -361,7 +361,7 @@ label {
     font-weight: 700;
     line-height: 29px;
 }
-.spec-1 div{
+.card__text-1 div{
     display: inline-block;
     margin: 9px 0 0 0;
 }
@@ -369,20 +369,24 @@ label {
     display: inline-block;
     margin: 9px 0 0 0;
 }
-.lspec-1 p{
+.card__text-1_left-1 p{
     margin: 9px 0 0 31px;
 }
-.rspec-1 p{
+.card__text-1_right-1 p{
     margin: 9px 0 0 44px;
 }
-.lspec-2 p{
+.card__text-2 div{
+    display: inline-block;
+    margin: 9px 0 0 0;
+}
+.card__text-2_left-2 p{
     padding-top: 10px;
     margin: 9px 0 0 31px;
 }
-.rspec-2 {
+.card__text-2_right-2 {
     padding-left: 13px;
 }
-.rspec-2 p{
+.card__text-2_right-2 p{
     padding-left: 6px;
 }
 #karkas {
