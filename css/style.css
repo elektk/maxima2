@@ -468,6 +468,12 @@ label {
   color: #5C5F66;
   border: none;
   white-space: nowrap;
+  &:hover, 
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #73B918;
+  }
 }
 
 .houses__arrow-left {
@@ -482,6 +488,7 @@ label {
   font-weight: 600;
   line-height: 13px;
   color: #f7d047;
+  cursor: pointer;
 }
 
 .houses__cards {
@@ -537,7 +544,7 @@ label {
 }
 
 #karkas {
-  padding-left: 135px;
+  text-align: right;
 }
 
 .block4 p {
